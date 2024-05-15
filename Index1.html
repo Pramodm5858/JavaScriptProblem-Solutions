@@ -13,9 +13,9 @@
 
     <h1>JavaScriptProblem-Solutions</h1>
     <h4>All JavaScript problems with solutions</h4>
-    
+
     <script type="text/javascript">
-            // 7) Covert kilometers to miles using JS Function 1km = 0.621371  miles = km * factor
+        // 7) Covert kilometers to miles using JS Function 1km = 0.621371  miles = km * factor
 
         //     function convert() {
         //     var kms = document.getElementById("data").value;
@@ -32,31 +32,31 @@
 
     <!-- 8)) Convert Celsius to Fahrenheit :- fahrenheit = celsius * 1.8 + 32-->
 
-<script>
-    // function convert(){
-    //     var c = document.getElementById("data").value;
-    //     var f = (c * 1.8) +32
-    //     document.getElementById("res").innerHTML = `${c} C = ${f} F`
-    // }
-</script>
+    <script>
+        // function convert(){
+        //     var c = document.getElementById("data").value;
+        //     var f = (c * 1.8) +32
+        //     document.getElementById("res").innerHTML = `${c} C = ${f} F`
+        // }
+    </script>
 
     <!-- <input type="" id="data" />C
     <br>
     <button onclick="convert()">convert</button>
     <h1 id="res"></h1> -->
-   
+
     </script>
 
     <!-- 9) JS prog to check if number is Positive or negative or Zero -->
 
     <script>
-       // function check(){
-            // var value1 = document.getElementById("data").value;
-            // var res = Math.sign(value1)          
-            // console.log(res);
-            // document.getElementById("res").innerHTML=res;
+        // function check(){
+        // var value1 = document.getElementById("data").value;
+        // var res = Math.sign(value1)
+        // console.log(res);
+        // document.getElementById("res").innerHTML=res;
 
-//How to make manual method for Math.sign,,lets check
+        //How to make manual method for Math.sign,,lets check
         //     var value2 = document.getElementById("data").value;
 
         //     if(value2 > 0  ){
@@ -70,10 +70,66 @@
         // }
     </script>
 
-     <!-- <input type="" id="data" />
+    <!-- <input type="" id="data" />
      <br>
      <button onclick="check()">Check</button>
      <h1 id="res"></h1> -->
+
+    <!-- //10) JS prog to generate a random number Math.random()-->
+    <!-- get a random number between range 
+            Math.random()*(highestNumber - lowestNumber)+lowestNumber
+            let a = Math.random()* (10 - 1) +1
+            log(`Random value between 1 and 10 is ${a}) -->
+
+    <!-- var x = Mat
+
+<script>
+
+    console.log(Math.random());
+</script> -->
+
+<!-- 12)  To Find prime number or not -->
+    <!-- <script>
+                                var number = prompt("Enter the number");
+
+                if(number == 1){
+                        console.log(`${number} is not a prime number nor composite number`);
+                }else if(number < 1){
+                        console.log(`${number} is not a prime number`);
+                }else {
+                        //number = 15
+                        for( var i=2; i<number; i++){
+                                if(number % i == 0){
+                                        var res = `${number} is not a prime number`;
+                                }else {
+                                        var res = `${number} is a prime number`;
+                                }
+                        }
+                        console.log(res);
+                }
+            </script> -->
+
+    <!-- <script>
+        let temp = "Rahul Rohit Sumit Sagar Akash";
+
+        let temp2 = "i";
+
+        let tempo = [];
+
+        let demo = temp.split(" ");
+
+        console.log(demo)
+
+        for (let i = 0; i < demo.length; i++) {
+            let nm = demo[i]
+            if (nm.toLowerCase().includes(temp2)) {
+                tempo.push(nm)
+
+            }
+        }
+        console.log(tempo)
+    </script> -->
+
 
 </body>
 
